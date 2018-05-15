@@ -1,18 +1,24 @@
-# Universal Dashboard Concepts
+# Concepts d'Universal Dashboard
 
-Universal Dashboard is a PowerShell Module that creates a web server and web site based on PowerShell scripts you author. You can define the layout of the client user interface as well as the server-side PowerShell scripts to execute when loading data into your dashboard. Since everything is authored in PowerShell, you have access to all the features and modules that PowerShell provides.
+Universal Dashboard est un module PowerShell qui crée un serveur Web et le site Web associé qui se base sur les scripts que vous écrivez. Vous définissez l'interface cliente ainsi que les scripts côté serveur qui s'exécuteront lors du chargement du tableau de bord. Ces derniers fourniront les données à l'interface présentée à l'utilisateur. 
+Comme tout est écrit en PowerShell, vous avez accès à toutes les fonctionnalités et modules que PowerShell apporte.
 
-## Dashboards
+## Tableaux de bords
 
 ![](/assets/dashboards.png)
 
-Dashboards are the top-level element in Universal Dashboard. A dashboard is composed of one or more pages with any number of components on those pages. Dashboards behave as a stand-alone web server and run on the port of your choosing. You can run multiple dashboards per server as long as they listen on different ports.
+Les tableaux de bords représentent l'élément de départ dans Universal Dashboard. Un tableau de bord est composé d'une ou plusieurs pages, lesquelles sont composées à leur tour d'un certain nombre de composants. Un tableau de bord se comporte comme un serveur Web autonome qui s'exécute sur le port de votre choix. Il est possible d'exécuter plusieurs tableaux de bords sur une même machine dans la mesure où ils écoutent sur des ports différents.
 
-## Components
+
+
+## Les composants
 
 ![](/assets/new-monitor-example-chart.png)
 
 Dashboards are made up of components. There are components for formatting, charts, input and more. Each component may translates to a different aspect of the client webpage as well as the server side endpoints. You can define properties like colors and text that are static as well as data for charts that is loaded dynamically on an interval.
+
+Un tableau de bord est constitué de plusieurs composants. Il existe des composants pour la mise en page, des composants graphiques, des composants de formulaires, etc. Chaque composant peut avoir différentes formes selon qu'il se trouve sur une page côté client ou s'il s'exécute côté serveur. Vous pouvez également définir des propriétés statiques telles que du texte ou des couleurs mais vous pouvez aussi des collecter ou générer des données à intervales de temps régulier qui seront fournies aux composants graphiques dans le but de produire un affichage dynamique. 
+
 
 ## [Endpoints](/endpoints.md)
 
