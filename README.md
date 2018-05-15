@@ -1,12 +1,11 @@
-# About Universal Dashboard
+# A propos d'Universal Dashboard
 
-The PowerShell Pro Tools Universal Dashboard PowerShell module allows for creation of web-based dashboards. The client and server side code for the dashboard is authored all PowerShell. Charts, monitors, tables and grids can easily be created with the cmdlets included with the module.The module is cross-platform and will run anywhere PowerShell Core can run.
+Le module PowerShell Pro Tools Universal Dashboard permet la création de tableaux de bords Web dynamiques. Le code, qu'il soit côté client ou côté serveur, est entièrement en PowerShell. Des contrôles de type moniteurs, diagrammes, tables ou grilles peuvent être très facilement créés grâce aux commandes incluses dans le module. Celui-ci est d'ailleurs multi-plateformes et fonctionne partout où PowerShell Core fonctionne.
 
 `Install-Module UniversalDashboard`
 
-Visit [PoshUD.com](http://www.poshud.com) to see a live example of a dashboard. 
+Pour voir un tableau de bord en action, rendez-vous sur [PoshUD.com](http://www.poshud.com).
 
-To purchase a license, visit [IronmanSoftware.com](https://ironmansoftware.com).
+Pour acheter une licence, visitez [IronmanSoftware.com](https://ironmansoftware.com).
 
 ![](/assets/podhud.png)
-
